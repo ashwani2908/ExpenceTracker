@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expence Tracker</title>
+</head>
+<body>
+    <form class="expence-list">
+        <label for="Expence Amount">Amount :</label>
+        <input type="text" id="exp-amt" name="amount">
+        <label for="Expence Description">Expence Description</label>
+        <input type="text" id="expence-desc" name="expencedescription">
+        <label for="expences">Choose category :</label>
+        <select name="expences" id="category" >
+            <option>Movie</option>
+            <option>Food</option>
+            <option>Fuel</option>
+            <option>Electricity</option>
+        </select>
+        <input type="button" id="submit-btn" value="Submit">
+    </form>
+    <ul class="listOfExpence"></ul>
+    
+</body>
+<script src="script.js"></script>
+</html>
